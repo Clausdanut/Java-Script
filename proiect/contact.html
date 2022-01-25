@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>CSS Grid Site - PMS</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+        <meta name="description" content="Primul Meu Site Continut pentru SEO">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Linkacademy">
+        <link rel="stylesheet" href="./assets/css/cotact.css">
+    </head>
+
+    <body>
+
+
+
+<nav>
+    <ul>
+        <li><a href="acasa.html">Acasa</a></li>
+        <li><a  href="portofoliu.html">Portofoliu</a></li>
+        <li><a  href="despre.html">Despre noi</a></li>
+        <li><a  href="blog.html">Blog </a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div style="text-align:center">
+      <h2>Formular contact</h2>
+      <p>Pentru mai multe detalii ne contactati mai jos:</p><br>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="./assets/images/map.jpeg" style="width: 500px">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">Primul Nume</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+          <label for="lname">Al doilea Nume</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+          <label for="country">Oras</label>
+          <select id="country" name="country">
+            <option value="australia">Bucuresti</option>
+            <option value="canada">Timisoara</option>
+            <option value="usa">Iasi</option>
+          </select><br>
+          <label for="subject">Mesaj</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit"><br>
+        </form>
+      </div>
+    </div>
+  </div>
+  </body>
