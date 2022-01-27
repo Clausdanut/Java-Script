@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#dreptunghi{
+background-color: rgb(17, 0, 255);
+height: 10em;
+width: 15em;
+}
